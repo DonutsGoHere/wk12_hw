@@ -4,6 +4,7 @@ public class Pilot {
     private String rank;
     private String licenceNumber;
 
+
     public Pilot(String name, String rank, String licenceNumber) {
         this.name = name;
         this.rank = rank;
@@ -19,5 +20,9 @@ public class Pilot {
 
     public String getLicenceNumber() {
         return this.licenceNumber;
+    }
+
+    public String flyPlane() {
+       return "1000hrs of Flight Simulator X totally counts!";
     }
 }

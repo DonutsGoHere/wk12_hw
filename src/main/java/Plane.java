@@ -1,7 +1,11 @@
-public abstract class Plane {
-    private PlaneType planeType;
+public class Plane  {
 
-    public Plane(PlaneType planeType) {
+    private PlaneType planeType;
+    public Plane(PlaneType planeType){
         this.planeType = planeType;
+    }
+
+    public PlaneType getPlaneType() {
+        return planeType;
     }
 }

@@ -16,4 +16,8 @@ public class CabinCrew {
     public String getRank() {
         return this.rank;
     }
+
+    public String speakToPassengers() {
+        return "Good afternoon, please don't panic but the engines have fallen off. That is all.";
+    }
 }

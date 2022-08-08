@@ -21,4 +21,9 @@ public class CabinCrewTest {
     public void hasRank() {
         assertEquals("3rd Class", cabinCrew.getRank());
     }
+
+    @Test
+    public void canSpeakToPassengers() {
+        assertEquals("Good afternoon, please don't panic but the engines have fallen off. That is all.", cabinCrew.speakToPassengers());
+    }
 }

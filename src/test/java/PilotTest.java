@@ -27,4 +27,9 @@ public class PilotTest {
     public void hasLicence() {
         assertEquals("PHLY1", pilot.getLicenceNumber());
     }
+
+    @Test
+    public void canFlyPlane() {
+        assertEquals("1000hrs of Flight Simulator X totally counts!", pilot.flyPlane());
+    }
 }
